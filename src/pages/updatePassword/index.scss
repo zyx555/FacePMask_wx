@@ -1,0 +1,23 @@
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1321rpx
+}
+.text{
+    margin-bottom: 50rpx;
+}
+.password
+{
+    width: 604rpx;
+    height: 87rpx;
+    border: 1px solid grey;
+    border-radius: 10rpx;
+    margin-bottom: 50rpx;
+    margin-left: 0px;
+}
+.button{
+    border-radius: 10rpx;
+    width: 604rpx;
+    background-color: #1296DB !important;
+ }

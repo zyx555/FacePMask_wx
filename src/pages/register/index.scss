@@ -1,0 +1,38 @@
+.logoImg{
+    height: 188rpx;
+    width: 188rpx;
+    position: absolute;
+    margin: -487rpx 2rpx 298rpx 208rpx;
+}
+.password,
+.accountNumber
+{
+    width: 604rpx;
+    height: 87rpx;
+    border: 1px solid grey;
+    border-radius: 10rpx;
+    margin-bottom: 50rpx;
+    margin-left: 0px;
+}
+.button{
+   border-radius: 10rpx;
+   width: 604rpx;
+   background-color: #1296DB !important;
+}
+.index{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:1321rpx
+}
+
+.toLogin{
+    color:#6190E8
+}
+.bottomText{
+    padding-left: 346rpx;
+    padding-top: 22rpx;
+    display: block;
+    // font-size: 29rpx;
+    // padding: 0px 59rpx 0px 59rpx;
+}

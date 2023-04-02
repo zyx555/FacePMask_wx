@@ -1,0 +1,47 @@
+.index{
+    height: 1238rpx;
+    background-color: rgb(249, 246, 246) ;
+
+}
+.userInfo{
+    height: 190rpx;
+    margin-top: 40rpx;
+    background-color: white;
+    position: relative;
+}
+.userAvatar{
+    margin-left:80rpx;
+    position: absolute;
+}
+.accountName{
+    margin: 5rpx 0rpx 0rpx 240rpx;
+    font-size: 33rpx;
+    position: absolute;
+   
+}
+.accountNumber{
+    margin: 60rpx 0 0 240rpx;
+    font-size: 32rpx;
+    position: absolute;
+}
+.right{
+    margin: 25rpx 0px 0 620rpx;
+    position:absolute;
+}
+
+.application{
+    margin-top: 30rpx;
+    background-color: white;
+}
+.applicationText{
+    padding-top: 20rpx;
+    padding-left: 70rpx;
+    font-size: 33rpx;
+}
+.help{
+    margin-top: 30rpx;
+}
+.helpImg{
+   height: 240rpx;
+   width: 100%;
+}
