@@ -40,12 +40,15 @@ export default class Index extends Component {
     console.log(accountNumber, password)
   }
 
-  itemClick = (item, index) => {
-    Taro.navigateTo({ url: '../../pages/getFace/index' })
+  // itemClick = (item, index) => {
+  //   Taro.navigateTo({ url: '../../pages/getFace/index' })
 
-  }
+  // }
   handleClick = () => {
     Taro.navigateTo({ url: '../../pages/updateInformation/index' })
+  }
+  faceCheckClick = () =>{
+    Taro.switchTab({url:'../../pages/faceCheckTab/index'})
   }
   render() {
     return (
@@ -61,11 +64,11 @@ export default class Index extends Component {
 
         <View className='application'>
           <View className='applicationText'><Text>应用场景</Text></View>
-          <AtGrid onClick={this.itemClick.bind(this)} data={
+          <AtGrid onClick={this.faceCheckClick.bind(this)} data={
             [
               {
                 image: work,
-                value: '上班打卡'
+                value: '上班打卡',
               },
               {
                 image: pay,
